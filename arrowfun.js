@@ -3,4 +3,6 @@ const get=async ()=> {
     console.log("h");
     let response1 = await fetch(url1);
     console.log(response1);
+    console.log(response1.test);
 };
+get();
